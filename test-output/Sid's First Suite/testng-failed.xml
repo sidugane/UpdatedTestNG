@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sid&#039;s First Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirstSuiteRunner(failed)">
+    <classes>
+      <class name="co.testngpractice.SkippingTestCases">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- co.testngpractice.SkippingTestCases -->
+    </classes>
+  </test> <!-- FirstSuiteRunner(failed) -->
+</suite> <!-- Failed suite [Sid's First Suite] -->
